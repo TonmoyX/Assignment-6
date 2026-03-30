@@ -1,12 +1,16 @@
 import './App.css'
+import Nav from './Component/Nav'
+import Banner from './Component/Banner'
+import banner from './assets/banner.png'
+import ClientCount from './Component/ClientCount'
+
 
 function App() {
-
-
   return (
     <>
-      <h1 className="text-9xl">HEllo WOrld</h1>
-      <button className="btn ">Click me</button>
+      <Nav></Nav>
+      <Banner banner={banner}></Banner>
+      <ClientCount></ClientCount>
     </>
   )
 }
