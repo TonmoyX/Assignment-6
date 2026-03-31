@@ -6,6 +6,13 @@ const Card = ({ model, design, oper, port, soci, write, carts, setCarts }) => {
     const [isBuy, setIsBuy] = useState(false)
     const handleBuy = () => {
         setIsBuy(true)
+
+            const isFound = carts.find(item => item.title === model.title)
+            if(isFound){
+                toast.error("Item already in cart!");
+                return;
+            }
+
         setCarts([...carts, model])
        toast.success("Item added to cart!");
     }

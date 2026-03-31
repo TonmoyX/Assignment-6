@@ -6,7 +6,7 @@ const Cards = ({ Models, design, oper, port, soci, write, carts, setCarts }) => 
 
     return (
         <div className='max-w-[1200px] mx-auto mt-[20px]'>
-            <div className='grid grid-cols-3 gap-4 '>
+            <div className='grid justify-center md:grid-cols-2 lg:grid-cols-3 gap-4 '>
                 {
                     models.map((model) => {
                        
