@@ -3,7 +3,7 @@ import React from 'react';
 const ThreeStep = ({user, packagimg, rocket}) => {
     return (
         <div className=" bg-[#F9FAFC]">
-            <div className='max-w-[1200px] mx-auto mt-[120px] pb-[120px]'>
+            <div className='max-w-[1200px] mx-auto mt-[120px] pb-[120px] mb-[120px]'>
             <div className='pt-[120px]'>
                 <h1 className='text-center text-[4rem] text-[#101727] font-extrabold'>Get Started in 3 Steps</h1>
                 <p className='text-center text-[#627382] text-[1rem]'>Start using premium digital tools in minutes, not hours.</p>

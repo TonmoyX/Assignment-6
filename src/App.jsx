@@ -3,11 +3,14 @@ import Nav from './Component/Nav'
 import Banner from './Component/Banner'
 import ClientCount from './Component/ClientCount'
 import ThreeStep from './Component/ThreeStep'
+import Pricing from './Component/Pricing'
+import Foot from './Component/Foot'
 
 import banner from './assets/banner.png'
 import user from './assets/user.png'
 import packagimg from './assets/package.png'
 import rocket from './assets/rocket.png'
+
 function App() {
   return (
     <>
@@ -20,6 +23,10 @@ function App() {
       packagimg={packagimg}
       rocket={rocket}
       ></ThreeStep>
+
+      <Pricing></Pricing>
+      <Foot></Foot>
+
     </>
   )
 }
