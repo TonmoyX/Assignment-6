@@ -4,12 +4,12 @@ const Cart = ({design, oper, port, soci, write, carts, setCarts}) => {
 
     const handleCartRemove = () =>{
         setCarts([])
-        toast.error("Cart is empty now!");
+        toast.error("Cart is empty now !");
     }
     const handleRemoveItem = (item) => {
         const deleteItem = carts.filter(items => items.title !== item.title)
         setCarts(deleteItem)
-        toast.error("Item removed from cart!");
+        toast.error("Item removed from cart !");
     }
 
     return (
