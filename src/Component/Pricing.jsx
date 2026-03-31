@@ -24,7 +24,7 @@ const Pricing = () => {
             </div>
              
             <div className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] p-8 rounded-2xl'>
-                <h2 className='bg-[#FEF3C6] text-[#BB4D00] p-2 w-[130px] text-center mt-[-50px] ml-[100px] rounded-full'>Most popular</h2>
+                <h2 className='bg-[#FEF3C6] text-[#BB4D00] p-2 w-[130px] text-center mt-[-50px] ml-[100px] rounded-full animate-bounce'>Most popular</h2>
             <h1 className='text-white text-[1.2rem] font-bold mt-[10px]'>Pro</h1>
             <p className='text-white mt-[8px]'>Best for professionals</p>
 
