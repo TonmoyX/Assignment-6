@@ -1,10 +1,13 @@
 import React from 'react';
 import { useState } from 'react';
+import {  toast } from 'react-toastify';
 
-const Card = ({ model, design, oper, port, soci, write }) => {
+const Card = ({ model, design, oper, port, soci, write, carts, setCarts }) => {
     const [isBuy, setIsBuy] = useState(false)
     const handleBuy = () => {
         setIsBuy(true)
+        setCarts([...carts, model])
+       toast.success("Item added to cart!");
     }
     return (
       <div className="card w-96 bg-base-100 shadow-sm">
