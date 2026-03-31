@@ -19,14 +19,14 @@ const Card = ({ model, design, oper, port, soci, write, carts, setCarts }) => {
     return (
       <div className="card w-96 bg-base-100 shadow-sm">
                                     <div className="card-body">
-                                        <span className="badge badge-xs badge-warning ml-[270px]">{model.badge}</span>
+                                        <span className="badge badge-xs bg-purple-400 ml-[270px]">{model.badge}</span>
                                         <div key={model.title}>
                                             <img src = {`${model.title === 'AI Writing Pro' ? write : (model.title === 'Design Templates Pack') ? design : (model.title === 'Premium Stock Assets') ? oper : (model.title === 'Automation Toolkit') ? oper : (model.title === 'Resume Builder Pro') ? port : (model.title === 'Social Media Content Kit') ? soci : ''}`}></img>
                                         </div>
                                         <div className="justify-between">
                                             <h2 className="text-2xl font-bold">{model.title}</h2>
                                             <p className='mt-[16px] mb-[16px]'>{model.description}</p>
-                                            <p className="text-xl mt-[10px] text-2xl font-bold text-[#101727]">${model.price.amount}/<span className='font-normal'>{model.price.billing}</span></p>
+                                           <p className="text-xl mt-[10px] text-2xl font-bold text-[#101727]">${model.price.amount}/<span className='font-normal'>{model.price.billing}</span></p>
                                         </div>
                                         <ul className="mt-6 flex flex-col gap-2 text-xs">
                                             <li>

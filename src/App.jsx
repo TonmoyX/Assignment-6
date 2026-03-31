@@ -42,20 +42,20 @@ function App() {
       <ClientCount></ClientCount>
       <CardHero></CardHero>
      <div className='max-w-[1200px] flex justify-center mx-auto mt-[40px]'>
-     <div className="tabs border-2 border-gray-400 justify-center w-[180px] rounded-full">
+     <div className="tabs border-2 border-gray-400 justify-center w-[148px] rounded-full">
        
        <input type="radio" 
        name="my_tabs_1" 
        onClick={()=> setActiveTab("Products")} 
-       className="tab tabd" 
+       className={`tab p-2 ${activeTab === 'Products' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white' : ''} tabs rounded-full`} 
        defaultChecked 
        aria-label="Products" />
 
        <input type="radio" 
        name="my_tabs_1" 
        onClick={()=> setActiveTab("Cart")} 
-       className="tab tabs rounded-full" 
-       aria-label={`Cart (${carts.length})`} />
+       className={`tab p-2 ${activeTab === 'Cart' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white' : ''} tabs rounded-full`} 
+       aria-label={`Cart (${carts.length}) `} />
 
      </div>
      </div>
