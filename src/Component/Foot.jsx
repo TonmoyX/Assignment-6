@@ -36,9 +36,9 @@ const Foot = () => {
                 <div>
                     <h1 className='text-white text-xl text-center'>Social links</h1>
                     <div className='flex gap-5 mt-[10px] ml-[150px] text-white text-2xl'>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-x-twitter"></i>
+                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-facebook"></i>
+                        <i className="fa-brands fa-x-twitter"></i>
                     </div>
                 </div>
             </div>

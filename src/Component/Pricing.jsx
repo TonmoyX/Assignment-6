@@ -14,10 +14,10 @@ const Pricing = () => {
 
             <h1 className='text-[#101727] text-[2.2rem] font-bold mt-[24px]'>$0<span className='text-[#627382] text-[1rem]'>/Month</span></h1>
             <div className='space-y-2.5'>
-                <p><i class="fa-solid fa-check"></i> Access to 10 free tools</p>
-                <p><i class="fa-solid fa-check"></i> Basic templates</p>
-                <p><i class="fa-solid fa-check"></i> Community support</p>
-                <p><i class="fa-solid fa-check"></i> 1 project per month</p>
+                <p><i className="fa-solid fa-check"></i> Access to 10 free tools</p>
+                <p><i className="fa-solid fa-check"></i> Basic templates</p>
+                <p><i className="fa-solid fa-check"></i> Community support</p>
+                <p><i className="fa-solid fa-check"></i> 1 project per month</p>
             </div>
 
             <button className='btn w-full mt-[80px] bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full'>Get Started Free</button>
@@ -30,12 +30,12 @@ const Pricing = () => {
 
             <h1 className='text-white text-[2.2rem] font-bold mt-[24px]'>$29<span className='text-white text-[1rem]'>/Month</span></h1>
             <div className='space-y-2.5'>
-                <p className='text-white'><i class="fa-solid fa-check"></i> Access to all premium tools</p>
-                <p className='text-white'><i class="fa-solid fa-check"></i> Unlimited templates</p>
-                <p className='text-white'><i class="fa-solid fa-check"></i> Priority support</p>
-                <p className='text-white'><i class="fa-solid fa-check"></i> Unlimited projects</p>
-                <p className='text-white'><i class="fa-solid fa-check"></i>Cloud sync</p>
-                <p className='text-white'><i class="fa-solid fa-check"></i> Advanced analytics</p>
+                <p className='text-white'><i className="fa-solid fa-check"></i> Access to all premium tools</p>
+                <p className='text-white'><i className="fa-solid fa-check"></i> Unlimited templates</p>
+                <p className='text-white'><i className="fa-solid fa-check"></i> Priority support</p>
+                <p className='text-white'><i className="fa-solid fa-check"></i> Unlimited projects</p>
+                <p className='text-white'><i className="fa-solid fa-check"></i>Cloud sync</p>
+                <p className='text-white'><i className="fa-solid fa-check"></i> Advanced analytics</p>
             </div>
                 <div className='bg-white mt-[10px] rounded-full'>
             <button className='btn w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text rounded-full'>Get Start Pro Trial</button></div>
@@ -46,12 +46,12 @@ const Pricing = () => {
 
             <h1 className='text-[#101727] text-[2.2rem] font-bold mt-[24px]'>$99<span className='text-[#627382] text-[1rem]'>/Month</span></h1>
             <div className='space-y-2.5'>
-                <p><i class="fa-solid fa-check"></i> Everything in Pro</p>
-                <p><i class="fa-solid fa-check"></i> Team collaboration</p>
-                <p><i class="fa-solid fa-check"></i> Custom integrations</p>
-                <p><i class="fa-solid fa-check"></i> Dedicated support</p>
-                <p><i class="fa-solid fa-check"></i> SLA guarantee</p>
-                <p><i class="fa-solid fa-check"></i> Custom branding</p>
+                <p><i className="fa-solid fa-check"></i> Everything in Pro</p>
+                <p><i className="fa-solid fa-check"></i> Team collaboration</p>
+                <p><i className="fa-solid fa-check"></i> Custom integrations</p>
+                <p><i className="fa-solid fa-check"></i> Dedicated support</p>
+                <p><i className="fa-solid fa-check"></i> SLA guarantee</p>
+                <p><i className="fa-solid fa-check"></i> Custom branding</p>
             </div>
 
             <button className='btn mt-[10px] w-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full'>Get Contact Sales</button>
