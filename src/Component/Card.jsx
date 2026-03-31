@@ -44,7 +44,7 @@ const Card = ({ model, design, oper, port, soci, write, carts, setCarts }) => {
                                         
                                         </ul>
                                         <div className="mt-6">
-                                            <button onClick={handleBuy} className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-full">{isBuy ? "Bought" : "Buy Now" }</button>
+                                            <button onClick={handleBuy} className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-full">{isBuy ? "Added to cart" : "Buy Now" }</button>
                                         </div>
                                     </div>
                                 </div>
