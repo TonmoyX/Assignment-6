@@ -8,6 +8,7 @@ import Foot from './Component/Foot'
 import Cards from './Component/Cards'
 import Cart from './Component/Cart'
 import CardHero from './Component/CardHero'
+import WorkFlow from  './WorkFlow'
 
 import banner from './assets/banner.png'
 import user from './assets/user.png'
@@ -42,7 +43,7 @@ function App() {
       <ClientCount></ClientCount>
       <CardHero></CardHero>
      <div className='max-w-[1200px] flex justify-center mx-auto mt-[40px]'>
-     <div className="tabs border-2 border-gray-400 justify-center w-[148px] rounded-full">
+     <div className="tabs border-1 border-gray-200 justify-center w-[148px] rounded-full">
        
        <input type="radio" 
        name="my_tabs_1" 
@@ -85,6 +86,7 @@ function App() {
       ></ThreeStep>
 
       <Pricing></Pricing>
+      <WorkFlow></WorkFlow>
       <Foot></Foot>
 
     </>

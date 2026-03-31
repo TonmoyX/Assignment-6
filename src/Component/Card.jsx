@@ -19,7 +19,7 @@ const Card = ({ model, design, oper, port, soci, write, carts, setCarts }) => {
     return (
       <div className="card w-96 bg-base-100 shadow-sm">
                                     <div className="card-body">
-                                        <span className="badge badge-xs bg-purple-400 ml-[270px]">{model.badge}</span>
+                                        <span className="badge badge-xs bg-purple-400 absolute ml-[270px]">{model.badge}</span>
                                         <div key={model.title}>
                                             <img src = {`${model.title === 'AI Writing Pro' ? write : (model.title === 'Design Templates Pack') ? design : (model.title === 'Premium Stock Assets') ? oper : (model.title === 'Automation Toolkit') ? oper : (model.title === 'Resume Builder Pro') ? port : (model.title === 'Social Media Content Kit') ? soci : ''}`}></img>
                                         </div>

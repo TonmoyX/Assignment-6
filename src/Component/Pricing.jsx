@@ -4,7 +4,7 @@ const Pricing = () => {
     return (
         <div className='md:max-w-[1200px] mx-auto mb-[100px]'>
            <div>
-            <h1 className='text-center text-[#101727] text-[3rem] font-extrabold'>Simple, Transparent Pricing</h1>
+            <h1 className='text-center text-[#101727] text-[2.5rem] md:text-[3rem] font-extrabold'>Simple, Transparent Pricing</h1>
             <p className='text-center text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
            </div>
            <div className='mt-[40px] grid justify-center md:grid-cols-3 gap-6'>
