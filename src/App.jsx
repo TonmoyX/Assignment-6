@@ -55,7 +55,7 @@ function App() {
        name="my_tabs_1" 
        onClick={()=> setActiveTab("Cart")} 
        className={`tab p-2 ${activeTab === 'Cart' ? 'bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white' : ''} tabs rounded-full`} 
-       aria-label={`Cart (${carts.length}) `} />
+       aria-label={`Cart (${carts.length})`} />
 
      </div>
      </div>
